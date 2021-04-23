@@ -1,0 +1,16 @@
+{
+  "name": "benjamint08/dadata",
+  "description": "MongoDB Library",
+  "homepage": "https://github.com/benjamint08/dadata",
+  "license": "MIT",
+  "require": {
+    "php": ">=7.4",
+    "ext-mongodb": "*",
+    "mongodb/mongodb": "^1.8"
+  },
+  "autoload": {
+    "psr-0" : {
+      "DaData" : "src/"
+    }
+  }
+}
